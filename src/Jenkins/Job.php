@@ -28,6 +28,8 @@ class Job
         $this->setJenkins($jenkins);
     }
 
+    public function getJobInternal() { return $this->job; }
+
     /**
      * @return Build[]
      */
